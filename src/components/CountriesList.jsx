@@ -34,9 +34,6 @@ function CountriesList(props) {
           <li>
             <Link to={eachCountry.alpha3Code} key={eachCountry.alpha3Code}>
               {eachCountry.name.common}
-              <img
-                src={`https://flagcdn.com/16x12/${eachCountry.alpha2Code}.png`}
-                alt="country"
               />
             </Link>
           </li>
